@@ -1,0 +1,12 @@
+{
+	"allowedDatabasesConfiguration": [
+      	{
+      		"path": "/home/gemma/git/group-03-descartes/ProgrammingProject05/Task02/task02",
+      		"databaseId": "exampledb"
+      	},
+      	{
+      		"path": "/home/gemma/git/group-03-descartes/ProgrammingProject05/Task02/task02",
+      		"databaseId": "trialyy"
+      	}
+	]
+}
