@@ -1,4 +1,4 @@
-# ProgrammingProject05
+# Biomed Images MetaDB
 ## Aim
 Building an Image Database with searchable metadata for biomedical applications. 
 
