@@ -1,4 +1,4 @@
-<H1> Task 02 </H1> 
+<H1> Interacting with SQLite Database</H1> 
 
 
 ## SQLite Database
