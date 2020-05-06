@@ -13,3 +13,17 @@ Bonn Aachen International Center for Information Technology <br>
 Each task folder has it's own readme that describes what the project actually does. 
 
 
+## Built With
+
+* [Maven](https://maven.apache.org/) - Dependency Management
+
+## Authors
+
+ **Shreya Kapoor** <br>
+**Sophia Krix** <br>
+**Gemma van der Voort**<br>
+
+## Acknowledgments
+
+**Dr. Jens Dorpinghaus** <br>
+**Dr. Sebastian Schaaf**<br>
