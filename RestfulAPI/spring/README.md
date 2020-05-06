@@ -1,4 +1,4 @@
-<H1> Task 03 </H1> 
+<H1> Restful Web Service </H1> 
 
 ## Problem Statement
 Your application should provide a RESTful web service using Spring, take a look at https://spring.io/guides/gs/rest-service/
