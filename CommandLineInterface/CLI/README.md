@@ -1,4 +1,4 @@
-<H1> Task 01 </H1> 
+<H1> Command Line Interface</H1> 
 
 ## Problem Statement
 Check on GitLab for a folder containing example images. These images are taken
