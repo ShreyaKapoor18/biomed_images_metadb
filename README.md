@@ -2,7 +2,7 @@
 ## Aim
 Building an Image Database with searchable metadata for biomedical applications. 
 
-![pipeline](https://github.com/ShreyaKapoor18/ProgrammingProject05/blob/master/pipline.png)
+![pipeline](https://github.com/ShreyaKapoor18/ProgrammingProject05/blob/master/pipline.png = 100x100)
 
 This project was implemented ass a part of Programming Lab II, in Wise1920 as a 
 part of Msc Life Science Informatics Curriculum. 
@@ -17,6 +17,7 @@ Run the following directories in a Sequential order:
 2. <br>SQLite</br>
     - This application helps the user to create database objects and interact with them. The user can provide a directory on which a database object can be based. This directory should contain image files (.jpg, .jpeg or .png) and corresponding metadata files (.txt) carrying the same file name. The images are stored in the database along with the corresponding metadata.
 3. <br>RestfulAPI</br>
+   - This application provides a RESTful web service using Spring.
 ## Note
 Each directory folder has it's own readme that describes what the project actually does. 
 
