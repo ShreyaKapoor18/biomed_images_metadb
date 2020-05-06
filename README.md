@@ -9,6 +9,12 @@ part of Msc Life Science Informatics Curriculum.
 
 ## Host Institution 
 Bonn Aachen International Center for Information Technology <br> 
+
+## Running the Application
+Run the following directories in a Sequential order: 
+1. CommandLineInterface
+2. SQLite
+3. RestfulAPI
 ## Note
 Each task folder has it's own readme that describes what the project actually does. 
 
