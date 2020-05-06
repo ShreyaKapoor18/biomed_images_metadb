@@ -2,7 +2,7 @@
 ## Aim
 Building an Image Database with searchable metadata for biomedical applications. 
 
-<img src="https://github.com/ShreyaKapoor18/ProgrammingProject05/blob/master/pipline.png" width="48">
+<img src="https://github.com/ShreyaKapoor18/ProgrammingProject05/blob/master/pipline.png" width="70%">
 
 This project was implemented ass a part of Programming Lab II, in Wise1920 as a 
 part of Msc Life Science Informatics Curriculum. 
