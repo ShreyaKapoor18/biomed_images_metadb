@@ -12,7 +12,8 @@ Bonn Aachen International Center for Information Technology <br>
 
 ## Running the Application
 Run the following directories in a Sequential order: 
-1. CommandLineInterface
+1. CommandLineInterface: 
+    - The application should take several command line parameters.Example: --import takes an image file name. --print is an option that prints all meta information on the screen without doing anything more. 
 2. SQLite
 3. RestfulAPI
 ## Note
