@@ -27,14 +27,24 @@ https://github.com/ShreyaKapoor18/biomed_images_metadb
   
 ### Getting Started
   1. To execute created the jar use the following command 
-  *  java -cp ~/biomed_images_metadb/CommandLineInterface/CLI/target/task01-0.0.1-SNAPSHOT.jar  de.bit.pl02.pp5.task01.CommandLineInterface __\<options>__ __\<arguments>__
+ ```
+ java -cp ~/biomed_images_metadb/CommandLineInterface/CLI/target/task01-0.0.1-SNAPSHOT.jar  de.bit.pl02.pp5.task01.CommandLineInterface __\<options>__ __\<arguments>__ 
+ ```
   Running the application with our pipeline
   1. Get the path of the folder that you want to be the directory, in our case <B> PP5 </B>
-  2. Get the location of the jar file from your local machine it should be /CommandLineInterface/CLI/target/task01-0.0.1-SNAPSHOT.jar
+  2. Get the location of the jar file from your local machine it should be something like 
+  ```
+ ~/biomed_images_db/CommandLineInterface/CLI/target/task01-0.0.1-SNAPSHOT.jar
+ ```
+
   3. Use it to insert the fileds in the Commands_sample.txt file provided in this repository 
   4. Go to terminal, the path provided works best if you make sure you are in the base directory of your computer. 
-  5. Use the command: bash ~/biomed_images_metadb/CommandLineInterface/CLI/Commands_sample.txt 
-    * This shall execute all the commands in the .txt file on the command line
+  5. Use the command:
+  ```
+  bash ~/biomed_images_metadb/CommandLineInterface/CLI/Commands_sample.txt 
+  ```
+
+ * This shall execute all the commands in the .txt file on the command line
     
     
 ## Application Output 
