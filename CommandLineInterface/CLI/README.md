@@ -16,24 +16,24 @@ Subsidiary Class: **Metadata.java** <br>
 In order to get the application running you will need to: 
 1. Git clone the following repository 
 ```
-https://gitlab-sysprog.informatik.uni-bonn.de/ProgrammingLab2/winterterm-2019-20/group-03-descartes/tree/master/ProgrammingProject05/Task01
+https://github.com/ShreyaKapoor18/biomed_images_metadb
 ```
 2.  Open Eclipse 
-*  Direct the workspace to /group-03-descartes/ProgrammingProject05
+*  Direct the workspace to biomed_images_db
 *  Import existing maven project
-*  Select the de.bit.pl02.task01 pom xml for importing the existing maven project. 
+*  Select the CLI (de.bit.pl02.task01) pom xml for importing the existing maven project. 
 *  Do a maven install 
 3. After the application is installed you will see a task01-0.0.1-SNAPSHOT.jar in the /target folder
   
 ### Getting Started
   1. To execute created the jar use the following command 
-  *  java -cp <Path to Programming Project>/ProgrammingProject05/Task01/task01/target/task01-0.0.1-SNAPSHOT.jar  de.bit.pl02.pp5.task01.CommandLineInterface __\<options>__ __\<arguments>__
+  *  java -cp ~/biomed_images_metadb/CommandLineInterface/CLI/target/task01-0.0.1-SNAPSHOT.jar  de.bit.pl02.pp5.task01.CommandLineInterface __\<options>__ __\<arguments>__
   Running the application with our pipeline
   1. Get the path of the folder that you want to be the directory, in our case <B> PP5 </B>
-  2. Get the location of the jar file from your local machine it should be /ProgrammingProject05/Task01/task/target/task01-0.0.1-SNAPSHOT.jar
+  2. Get the location of the jar file from your local machine it should be /CommandLineInterface/CLI/target/task01-0.0.1-SNAPSHOT.jar
   3. Use it to insert the fileds in the Commands_sample.txt file provided in this repository 
   4. Go to terminal, the path provided works best if you make sure you are in the base directory of your computer. 
-  5. Use the command: bash ~/group-03-descartes/ProgrammingProject05/Task01/task01/Commands_sample.txt 
+  5. Use the command: bash ~/biomed_images_metadb/CommandLineInterface/CLI/Commands_sample.txt 
     * This shall execute all the commands in the .txt file on the command line
     
     
