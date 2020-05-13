@@ -1,6 +1,6 @@
 # Biomed Images MetaDB
-## Aim
-Building an Image Database with searchable metadata for biomedical applications. 
+## About
+A tool to build an Image Database with searchable metadata for biomedical applications. 
 
 <img src="https://github.com/ShreyaKapoor18/ProgrammingProject05/blob/master/pipline.png" width="70%">
 
