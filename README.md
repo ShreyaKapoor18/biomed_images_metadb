@@ -1,4 +1,4 @@
-# Biomed Images MetaDB
+# Biomedical Images MetaDatabase
 ## About
 A tool to build an Image Database with searchable metadata for biomedical applications. 
 
