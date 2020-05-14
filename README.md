@@ -4,11 +4,11 @@ A tool to build an image database with searchable metadata for biomedical applic
 
 <img src="https://github.com/ShreyaKapoor18/ProgrammingProject05/blob/master/pipline.png" width="70%">
 
-This project was implemented for the course Programming Lab II, in the winter semester of 2019-2020 as a 
-part of Msc Life Science Informatics Curriculum. 
+This project was implemented for the course Programming Lab II, in the winter semester 2019-2020 as a 
+part of Msc Life Science Informatics curriculum. 
 
 ## Host Institution 
-Bonn Aachen International Center for Information Technology <br> 
+Bonn Aachen International Center for Information Technology, Bonn, Germany. <br> 
 
 ## Running the Application
 Run the following directories in a Sequential order: <br>
