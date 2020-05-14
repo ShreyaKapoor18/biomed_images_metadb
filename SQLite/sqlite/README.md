@@ -67,22 +67,21 @@ $ sqlite3
 ```
 ### Running the Application
 In order to get the application running you will need to download the repository from gitlab from the following link.
-
 ```
-https://gitlab-sysprog.informatik.uni-bonn.de/ProgrammingLab2/winterterm-2019-20/group-03-descartes/tree/master/ProgrammingProject05
+https://github.com/ShreyaKapoor18/biomed_images_metadb
 ```
 
 1. Git clone the repository
 2. Open Eclipse
-    *  Direct the workspace to /group-03-descartes/ProgrammingProject05
+    *  Direct the workspace to biomed_images_metadb
     *  Import existing maven project
     *  Select the de.bit.pl02.task02 pom xml for importing the existing maven project.
     *  Do a maven install
 3. After the application is installed you will see a task02-0.0.1-SNAPSHOT.jar in the /target folder
 4. To execute the jar use the following command (example in Commands file)
-    *  java -cp <Path to Programming Project>/ProgrammingProject05/Task02/task02/target/task02-0.0.1-SNAPSHOT.jar  de.bit.pl02.pp5.task02.CommandLineInterface <options> <arguments>
+    *  java -cp sqlite/target/task02-0.0.1-SNAPSHOT.jar  de.bit.pl02.pp5.task02.CommandLineInterface <options> <arguments>
     *  or use the Commands file to run from the base folder from your computer 
-         * bash /group-03-descartes/ProgrammingProject05/Task02/task02 Commands.txt
+         * bash SQLite/sqlite/Commands.txt
 ### Accessing a database
 
 For the program to be running you need to specify the name of the database you want to make or the database you want to see that you have already created. Therefore use the option
