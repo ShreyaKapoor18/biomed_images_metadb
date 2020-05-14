@@ -27,17 +27,17 @@ Subsidiary Classes:
 In order to get the application running you will need to: 
 1. Git clone the following repository 
 ```
-https://gitlab-sysprog.informatik.uni-bonn.de/ProgrammingLab2/winterterm-2019-20/group-03-descartes/tree/master/ProgrammingProject05/Task02
+https://github.com/ShreyaKapoor18/biomed_images_metadb
 ```
 2.  Open Eclipse 
-*  Direct the workspace to /group-03-descartes/ProgrammingProject05
+*  Direct the workspace to biomed_images_db
 *  Import existing maven project
 *  Select the de.bit.pl02.task03 pom xml for importing the existing maven project. 
 3.  Run Task3Application.java. in your IDE and go to the next section OR:
 4.  Do a maven install.
 5. After the application is installed you will see a task03-0.0.1-SNAPSHOT.jar in the /target folder
 6. To execute the jar use the following command:
-    * Move to the task03 directory using cd
+    * Move to the spring directory using cd
     * type: java -jar target/task03-0.0.1-SNAPSHOT.jar
 
 #### Getting Started
