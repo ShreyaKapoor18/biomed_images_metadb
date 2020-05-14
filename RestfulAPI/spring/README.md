@@ -30,7 +30,7 @@ In order to get the application running you will need to:
 https://github.com/ShreyaKapoor18/biomed_images_metadb
 ```
 2.  Open Eclipse 
-*  Direct the workspace to biomed_images_db
+*  Direct the workspace to biomed_images_metadb
 *  Import existing maven project
 *  Select the de.bit.pl02.task03 pom xml for importing the existing maven project. 
 3.  Run Task3Application.java. in your IDE and go to the next section OR:
