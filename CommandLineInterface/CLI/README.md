@@ -19,7 +19,7 @@ In order to get the application running you will need to:
 https://github.com/ShreyaKapoor18/biomed_images_metadb
 ```
 2.  Open Eclipse 
-*  Direct the workspace to biomed_images_db
+*  Direct the workspace to biomed_images_metadb
 *  Import existing maven project
 *  Select the CLI (de.bit.pl02.task01) pom xml for importing the existing maven project. 
 *  Do a maven install 
