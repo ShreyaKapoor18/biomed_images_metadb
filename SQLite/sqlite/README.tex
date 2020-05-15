@@ -1,0 +1,287 @@
+Interacting with SQLite Database
+
+\hypertarget{sqlite-database}{%
+\subsection{SQLite Database}\label{sqlite-database}}
+
+This application helps the user to create database objects and interact
+with them. The user can provide a directory on which a database object
+can be based. This directory should contain image files (.jpg, .jpeg or
+.png) and corresponding metadata files (.txt) carrying the same file
+name. The images are stored in the database along with the corresponding
+metadata.
+
+\textbf{Columns}:
+
+\begin{itemize}
+\tightlist
+\item
+  AUHTOR (the author name)\\
+\item
+  TITLE (the title of the image)\\
+\item
+  LINK (the URL related to the image)\\
+\item
+  PICTURE (the image stored as a byte array)
+\end{itemize}
+
+It is possible to print the values of the created table. If the user
+only wants the metadata of a specific sample, then the metadata can be
+retrieved by specifying either the author or the title and the metadata
+will be saved as a .txt file.
+
+\hypertarget{getting-started}{%
+\subsection{Getting Started}\label{getting-started}}
+
+\hypertarget{description}{%
+\subsubsection{Description}\label{description}}
+
+Main Class: \textbf{CommandLineInterface.Java} Subsidiary Classes:
+\textbf{Image.java}, \textbf{Database.Java}, \textbf{MetaDataAPI.java}
+
+\hypertarget{installing}{%
+\subsubsection{Installing}\label{installing}}
+
+How to set up an working environment for this application: \#\#\#
+Installing SQLite
+
+Before trying to install, please check whether the installation has
+already been made.
+
+\begin{verbatim}
+$ sqlite3
+\end{verbatim}
+
+If SQLite is already installed, you should get the following message:
+
+\begin{verbatim}
+SQLite version 3.29.0 2019-07-10 17:32:03
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite>
+\end{verbatim}
+
+If not, please follow these instructions to install SQLite.
+
+Go to the SQLite webpage (https://www.sqlite.org/download.html) and
+download the most recent version of **SQLite-autoconf-*.tar.gz**. Type
+the following commands into the command line to unzip and install the
+package.
+
+\begin{verbatim}
+$ tar xvfz SQLite-autoconf-*.tar.gz
+
+$ cd SQLite-autoconf-*
+
+$ ./configure --prefix = /usr/local
+
+$ make
+
+$ make install
+\end{verbatim}
+
+Confirm successful installation by typing again
+
+\begin{verbatim}
+$ sqlite3
+\end{verbatim}
+
+\hypertarget{running-the-application}{%
+\subsubsection{Running the Application}\label{running-the-application}}
+
+In order to get the application running you will need to download the
+repository from gitlab from the following link.
+
+\begin{verbatim}
+https://github.com/ShreyaKapoor18/biomed_images_metadb
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Git clone the repository
+\item
+  Open Eclipse
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Direct the workspace to biomed\_images\_metadb
+  \item
+    Import existing maven project
+  \item
+    Select the de.bit.pl02.task02 pom xml for importing the existing
+    maven project.
+  \item
+    Do a maven install
+  \end{itemize}
+\item
+  After the application is installed you will see a
+  task02-0.0.1-SNAPSHOT.jar in the /target folder
+\item
+  To execute the jar use the following command (example in Commands
+  file)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    java -cp sqlite/target/task02-0.0.1-SNAPSHOT.jar
+    de.bit.pl02.pp5.task02.CommandLineInterface 
+  \item
+    or use the Commands file to run from the base folder from your
+    computer
+
+    \begin{itemize}
+    \tightlist
+    \item
+      bash SQLite/sqlite/Commands.txt \#\#\# Accessing a database
+    \end{itemize}
+  \end{itemize}
+\end{enumerate}
+
+For the program to be running you need to specify the name of the
+database you want to make or the database you want to see that you have
+already created. Therefore use the option
+
+\textbf{-n} or \textbf{--name} \textbf{\emph{(Mandatory Option)}} :
+Enter the path of the database and the name of the database you want to
+make/see. Example(trialyy.db) database from PP5 repository in the
+previous task has been made already.
+
+\begin{verbatim}
+-n your_path,your_database_name 
+\end{verbatim}
+
+Provide a directory that contains image files (.png, .jpeg, .jpg) and
+corresponding metadata files (.txt). In our case it is the PP5 directory
+created in task01.The metadata files have to have the following
+information:
+
+\begin{verbatim}
+AUTHOR: xxx
+TITLE: xxx
+https://www.example.com (only for files that contain a link)
+\end{verbatim}
+
+Therefore use the option
+
+\textbf{-d} or \textbf{--directory}: Enter the file directory from which
+you want to store the images
+
+\begin{verbatim}
+-d your_directory_path
+\end{verbatim}
+
+\hypertarget{querying-a-database}{%
+\subsubsection{Querying a database}\label{querying-a-database}}
+
+Now you can choose how you want to query the database. You can either
+retrieve metadata information or the image as a .jpg file.
+
+\hypertarget{retrieval-of-metadata-information}{%
+\paragraph{\texorpdfstring{\textbf{Retrieval of metadata
+information}}{Retrieval of metadata information}}\label{retrieval-of-metadata-information}}
+
+You can give information about the author or the title to retrieve
+additional metadata. To query by the author use the option
+
+\textbf{-gma} or \textbf{--getMetabyAuthor}: Enter the name of the
+author of which you want to retrieve the metadata and the outputpath
+where to save it at
+
+\begin{verbatim}
+-gma author_name,output_path
+\end{verbatim}
+
+To query by the title use the option
+
+\textbf{-gmt} or \textbf{--getMetabyTitle}: Enter the name of the title
+of which you want to retrieve the metadata and the outputpath where to
+save it at
+
+\begin{verbatim}
+-gmt title_name,output_path
+\end{verbatim}
+
+\hypertarget{retrieval-of-images}{%
+\paragraph{\texorpdfstring{\textbf{Retrieval of
+images}}{Retrieval of images}}\label{retrieval-of-images}}
+
+You can give information about the author or title to retrieve the
+images. To query by the author use the option
+
+\textbf{-gia} or \textbf{--getImagebyAuthor}: Enter the name of the
+author from which you want the image and the outputpath where to save it
+at
+
+\begin{verbatim}
+-gia author_name,output_path
+\end{verbatim}
+
+To query by the title use the option
+
+\textbf{-git} or \textbf{--getImagebyTitle}: Enter the name of the title
+from which you want the image and the outputpath where to save it at
+
+\begin{verbatim}
+-git title_name,output_path
+\end{verbatim}
+
+\hypertarget{prerequisites}{%
+\subsubsection{Prerequisites}\label{prerequisites}}
+
+The Java Version: 1.8.0\_231 is used for this application. Apache Maven
+Version 3.6.3 was installed from https://maven.apache.org/download.cgi.
+Therefore the binaries apache-maven-3.6.3-bin.zip were downloded.
+
+The following dependencies were added to Maven:
+
+\textbf{SQLite-JDBC} Version 3.18.0\\
+\textbf{commons-cli} Version 1.4\\
+\textbf{commons-io} Version 2.6\\
+\textbf{commons-lang3} Version 3.4
+
+by adding the according dependencies to the pom.xml file:
+
+\begin{verbatim}
+<dependency>
+        <groupId>org.xerial</groupId>
+        <artifactId>sqlite-jdbc</artifactId>
+        <version>3.18.0</version>
+</dependency>
+
+<dependency>
+    <groupId>commons-cli</groupId>
+    <artifactId>commons-cli</artifactId>
+    <version>1.4</version>
+</dependency>
+
+<dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.6</version>
+ </dependency>
+
+<dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+    <version>3.4</version>
+</dependency>
+\end{verbatim}
+
+\hypertarget{built-with}{%
+\subsection{Built With}\label{built-with}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://maven.apache.org/}{Maven} - Dependency Management
+\end{itemize}
+
+\hypertarget{authors}{%
+\subsection{Authors}\label{authors}}
+
+\textbf{Shreya Kapoor}\\
+\textbf{Sophia Krix}\\
+\textbf{Gemma van der Voort}
