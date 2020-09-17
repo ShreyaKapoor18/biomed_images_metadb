@@ -1,0 +1,20 @@
+Connecting to the database: 
+jdbc:sqlite:Desktop/trialxx.db
+Executing Store method
+Directory: Desktop/PP5
+1 d41586-018-07663-9_16315876.jpg
+2 FYVE-GFP 180807_4_new_Average Number of Spots per Cell.png
+3 FYVE-GFP 180807_4_new_Average Width to Length Ratio of Spots.png
+4 d41586-018-07663-9_16335438.jpg
+5 FYVE-GFP 180807_4_new_Average Number of Spots per Picture projected.png
+6 nlx085f2.jpg
+7 pmed.1002660.g002.jpg
+8 FYVE-GFP 180807_4_new_Average Contrast of Spots.png
+9 FYVE-GFP 180807_4_new_Average Roundness of Spots.png
+10 sebastian.jpeg
+11 13195_2015_144_Fig1_HTML.jpg
+12 fig-5-first_dataset.png
+13 nlx085f1.jpg
+14 fig-3-n15.png
+15 pmed.1002660.g001.jpg
+16 FYVE-GFP 180807_4_new_Average Number of Spots per Picture counted.png

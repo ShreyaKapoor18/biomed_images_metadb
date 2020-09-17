@@ -1,0 +1,13 @@
+Connecting to the database: 
+jdbc:sqlite:Desktop/trialyy.db
+ On first connection, the database contains 16 elements
+Files from the particular folder /home/shreya/Desktop/PP5 have already been added to the database named trialyy
+------------------------------------------------------------
+
+Executed query!
+Author: Nicolas Rivron
+Title: Debate ethics of embryo models from stem cells
+Link: https://www.nature.com/articles/d41586-018-07663-9
+Author: Nicolas Rivron
+Title: Debate ethics of embryo models from stem cells
+Link: https://www.nature.com/articles/d41586-018-07663-9

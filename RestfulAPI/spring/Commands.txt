@@ -1,0 +1,3 @@
+curl -F 'author=Nicolas Rivron' -F 'title=Debate ethics fo embryo models from stem cells' -F link=https://www.nature.com/articles/d41586-018-07663-9 -F file=@embryomodelsdebate.png http://localhost:8080/trialyy/store
+curl http://localhost:8080/trialyy/get?author=Nicolas%20Rivron
+curl http://localhost:8080/trialyy/get?id=11 -o embryomodelsdebate.png

@@ -1,0 +1,6 @@
+Connecting to the database: 
+jdbc:sqlite:Desktop/trialyy.db
+ On first connection, the database contains 16 elements
+executed the query:SELECT * FROM IMAGES WHERE TITLE='Debate ethics of embryo models from stem cells';
+saved image at: Desktop/Nicolas Rivron1.png
+saved image at: Desktop/Nicolas Rivron4.png

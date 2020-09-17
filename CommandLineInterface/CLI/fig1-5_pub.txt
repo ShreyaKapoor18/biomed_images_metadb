@@ -1,0 +1,27 @@
+************************************************************
+File name: d41586-018-07663-9_16315876.jpg
+Reading file in directory, path is: /home/shreya/git/biomed_images_metadb/CommandLineInterface/CLI/PP5/d41586-018-07663-9_16315876.meta
+-------------------- MESSAGE --------------------
+Metafile exists, will deal with existing metafile
+--------------------------------------------------
+
+Contents of the current file
+==================================================
+https://www.nature.com/articles/d41586-018-07663-9
+Author:Nicolas Rivron
+Title:Debate ethics of embryo models from stem cells
+Database: Nature
+Infographic:1
+==================================================
+
+After dealing with your meta options the file will be displayed!
+
+Contents of the current file
+==================================================
+https://www.nature.com/articles/d41586-018-07663-9
+Author:Nicolas Rivron
+Title:Debate ethics of embryo models from stem cells
+Database: Nature
+Infographic:1
+==================================================
+
