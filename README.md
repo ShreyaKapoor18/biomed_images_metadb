@@ -1,4 +1,8 @@
 # Biomedical Images MetaDatabase
+![GitHub](https://img.shields.io/github/license/ShreyaKapoor18/biomed_images_metadb?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/ShreyaKapoor18/biomed_images_metadb)
+![GitHub issues](https://img.shields.io/github/issues/ShreyaKapoor18/biomed_images_metadb?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/ShreyaKapoor18/biomed_images_metadb?style=plastic)
 ## About
 A tool to build an image database with searchable metadata for biomedical applications. 
 
